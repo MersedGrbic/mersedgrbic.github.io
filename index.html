@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <title>Mersed Grbic's Portfolio Website</title>
 </head>
@@ -42,12 +44,14 @@
     <!--Project section-->
     <div class="section-blue">
         <section id="projects">
-          <h2>Projects I'm proud of</h2>
+          <div data-aos="fade-right"><h2>Projects I'm proud of</h2></div>
+          
+          <div data-aos="fade-left">
           <article>
             <div class="text">
             <h4>Latest Project</h4>
             <h3>Quizzical App</h3>
-            <p class="blackbox">Quizzical is a simple quizz app made with React. Quizzical uses Open Trivia DB api in order to get data. Data is displayed in our quizzical app in form of questions, one correct answer and 4 incorrect answers.In the Quizzical app users have options to choose number of questions to be displayed and category. Play QUIZZICAL? Click <a href="https://quizzical-mg.netlify.app">here</a> To see source code of Quizzical click <a href="https://github.com/MersedGrbic/quizzical-app" target="_blank">here</a></p>
+            <p class="blackbox">Quizzical is a simple quizz app made with React. Quizzical uses Open Trivia DB api in order to get data. Data is displayed in our quizzical app in form of questions, one correct answer and 4 incorrect answers.In the Quizzical app users have options to choose number of questions to be displayed and category. Play QUIZZICAL? Click <a href="https://quizzical-mg.netlify.app" target="_blank">here</a> To see source code of Quizzical click <a href="https://github.com/MersedGrbic/quizzical-app" target="_blank">here</a></p>
             <h4>Technologies used include:</h4>
             <ul>
               <li>HTML</li>
@@ -58,7 +62,8 @@
             </div>
             <img src="/images/quizzical-app.png" alt="Screenshot of the Quizzical app." />
           </article>
-
+        </div>
+        <div data-aos="fade-right">
           <article>
             <div class="text reverse">
             <h4>Solo Project</h4>
@@ -73,6 +78,7 @@
             </div>
             <img class="reverse-img" src="/images/movie-app.png" alt="Screenshot of the Wall of Wonder." />
           </article>
+        </div>
         </section>
         </div>
         
@@ -99,6 +105,10 @@
         </ul>
         <p><small>&copy;2022 Mersed Grbic. All rights reserved.</small></p>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
