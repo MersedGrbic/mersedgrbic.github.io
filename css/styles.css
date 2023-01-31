@@ -170,7 +170,7 @@ nav [class*="fa-"]:hover {
   padding: 0.5rem;
   border-radius: 5px;
   text-decoration: none;
-  font-family: var(--mono); 
+  font-family: var(--mono);
 }
 
 .button:hover {
@@ -211,7 +211,7 @@ footer ul {
   margin: 0;
 }
 .blackbox {
-  background-color: var(--black);
+  background-color: #171321c9;
   padding: 1rem;
   border-radius: 10px;
   color: var(--white);
@@ -277,4 +277,9 @@ footer ul {
     text-align: left;
     margin-right: auto;
   }
+}
+
+.about-img {
+  max-width: 500px;
+  border: 1px solid var(--aqua);
 }

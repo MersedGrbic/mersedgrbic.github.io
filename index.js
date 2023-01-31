@@ -1,5 +1,16 @@
-document.getElementById("virtual-clinic");
 let counter = 1;
+let taskmateCounter = 1;
+const changeTaskmateSource = () => {
+  if (taskmateCounter > 5) {
+    taskmateCounter = 1;
+  }
+
+  document.getElementById(
+    "taskmate"
+  ).src = `/images/taskmate_page_${counter}.png`;
+  taskmateCounter += 1;
+};
+
 const changeImageSource = () => {
   if (counter > 3) {
     counter = 1;
@@ -11,4 +22,5 @@ const changeImageSource = () => {
   counter += 1;
 };
 
-setInterval(changeImageSource, 5000);
+setInterval(changeImageSource, 2500);
+setInterval(changeTaskmateSource, 2500);
