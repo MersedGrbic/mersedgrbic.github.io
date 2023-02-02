@@ -7,7 +7,7 @@ const changeTaskmateSource = () => {
 
   document.getElementById(
     "taskmate"
-  ).src = `/images/taskmate_page_${counter}.png`;
+  ).src = `/images/taskmate_page_${taskmateCounter}.png`;
   taskmateCounter += 1;
 };
 
