@@ -1,7 +1,7 @@
 let counter = 1;
 let taskmateCounter = 1;
 const changeTaskmateSource = () => {
-  if (taskmateCounter > 5) {
+  if (taskmateCounter > 6) {
     taskmateCounter = 1;
   }
 
