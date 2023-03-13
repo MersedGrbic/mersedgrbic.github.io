@@ -281,5 +281,5 @@ footer ul {
 
 #projects .about-img {
   border: 1px solid var(--aqua);
-  border-radius: 50%;
+  border-radius: 50% !important;
 }
