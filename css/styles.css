@@ -279,7 +279,7 @@ footer ul {
   }
 }
 
-.about-img {
-  max-width: 500px;
+#projects .about-img {
   border: 1px solid var(--aqua);
+  border-radius: 50%;
 }
